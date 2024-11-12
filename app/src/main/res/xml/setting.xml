@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="">
+
+        <Preference
+            android:entries="@array/mauchude"
+            android:entryValues="@array/mauchude"
+            android:key="themeColor"
+            android:summary="Chọn màu chủ đề của bạn"
+            android:title="Chủ Đề" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="">
+        <SwitchPreference
+            android:key="nightMode"
+            android:title="Night Mode"
+            android:defaultValue="false"
+            android:summaryOn="@string/night_mode_activated"
+            android:summaryOff="@string/night_mode_deactivated"/>
+    </PreferenceCategory>
+</PreferenceScreen>

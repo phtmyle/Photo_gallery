@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mauchude">
+        <item>Nâu</item>
+        <item>Tím</item>
+        <item>Hồng</item>
+        <item>Lục</item>
+        <item>Cam</item>
+        <item>Đỏ</item>
+        <item>Lam</item>
+        <item>Vàng</item>
+    </string-array>
+</resources>

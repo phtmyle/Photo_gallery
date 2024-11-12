@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/photo"
+        android:title="@string/photo"
+        android:icon="@drawable/ic_image"
+        android:iconTint="@color/white"/>
+
+    <item android:id="@+id/album"
+        android:title="@string/album"
+        android:icon="@drawable/ic_albums"
+        android:iconTint="@color/white"/>
+
+    <item android:id="@+id/secret"
+        android:title="@string/secret"
+        android:icon="@drawable/ic_secret"
+        android:iconTint="@color/white" />
+
+    <item android:id="@+id/favorite"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_favourite"
+        android:iconTint="@color/white"/>
+    <item android:id="@+id/trash"
+        android:title="Trash"
+        android:icon="@drawable/ic_delete"
+        android:iconTint="@color/white" />
+        />
+</menu>

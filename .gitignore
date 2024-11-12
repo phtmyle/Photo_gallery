@@ -1,0 +1,75 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Gradle files
+.gradle/
+**/build/
+!gradle-wrapper.jar
+.gradle/cache/
+.gradle/daemon/
+.gradle/wrapper/
+.gradle/gradle.properties
+build/
+local.properties
+
+# Android/IntelliJ
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/misc.xml
+*.iml
+*.hprof
+
+# Generated files
+app/build/
+*/build/
+build/
+captures/
+output.json
+crashlytics.properties
+crashlytics-build.properties
+firebase-debug.log
+*.apk
+*.ap_
+
+# Keystore files
+*.jks
+*.keystore
+
+# Personal IDE settings
+.idea/
+
+# Local Gradle settings
+.localgradle
+
+# OS generated files (Windows, macOS, Linux)
+*.DS_Store
+*.log
+*.swp
+*.swo
+*.swn
+Thumbs.db
+
+# Exclude JetBrains IDEs configs
+**/.idea/
+*.iml
+.idea/
+
+# Misc
+.DS_Store

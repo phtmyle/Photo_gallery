@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/restoreAll"
+        android:icon="@drawable/ic_restore"
+        android:iconTint="?attr/colorOnBackground"
+        android:title="Restore"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/emptyTrash"
+        android:icon="@drawable/ic_delete1"
+        android:iconTint="?attr/colorOnBackground"
+        android:title="Delete all"
+        app:showAsAction="always" />
+
+
+</menu>

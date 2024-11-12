@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/trash_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar_picture_deleted"
+        layout="@layout/layout_toolbar"
+        android:background="@color/white" />
+
+    <FrameLayout
+        android:id="@+id/frame_viewPager_deleted"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager_picture_deleted"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_picture_deleted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/colorOnPrimary"
+        app:elevation="16dp"
+        app:itemTextColor="@drawable/custom_color_button"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@drawable/menu_bottom_deleted" />
+
+</RelativeLayout>
+    <!--LE:    app:itemIconTint="@android:color/transparent"  to change icon color -->
